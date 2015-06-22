@@ -5,4 +5,4 @@ from .models import Article
 
 class ArticleView(DetailView):
     model = Article
-    template_name = 'article-detail.html'
+    template_name = 'article/detail.html'

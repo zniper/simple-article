@@ -2,8 +2,7 @@
 
 {% block title %}{{ object.title }}{% endblock title %}
 
-{% block heading_text %}{{ object.title }}{% endblock heading_text %}
-
 {% block content %}
+  <h1>{{ object.title }}</h1>
   {{ object.body|safe }}
 {% endblock content %}
