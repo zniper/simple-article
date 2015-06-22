@@ -27,7 +27,7 @@ class Article(models.Model):
         return 'Article: %s' % self.title
 
     def get_absolute_url(self):
-        return reverse('article', kwargs={'slug': self.slug})
+        return reverse('article-detail', kwargs={'slug': self.slug})
 
     def save(self, *args, **kwargs):
         if not self.id:
