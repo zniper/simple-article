@@ -1,4 +1,5 @@
-from django.views.generic import DetailView
+from django.views.generic import DetailView, ListView
+from django.conf import settings
 
 from .models import Article
 
@@ -6,3 +7,9 @@ from .models import Article
 class ArticleView(DetailView):
     model = Article
     template_name = 'article/detail.html'
+
+
+class ArticleListView(ListView):
+    model = Article
+    template_name = 'article/list.html'
+    paginate_by = getattr(settings, 'ARTICLE_PAGINATE_BY')
