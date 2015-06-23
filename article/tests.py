@@ -51,7 +51,6 @@ class TemplateTagsTests(TestCase):
 
     def test_exclude(self):
         queryset = article_tags.recent_articles(exclude=1)
-        import pdb; pdb.set_trace()
         self.assertEqual(queryset.count(), 1)
 
     def test_exclude_multi(self):
@@ -62,5 +61,6 @@ class TemplateTagsTests(TestCase):
 class ImportTests(TestCase):
 
     def test_admin(self):
-        # wierd?
+        # weird?
         import admin
+        self.assertEqual(1, 1)

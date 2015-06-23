@@ -8,7 +8,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='article',
+    name='simple-article',
     version='0.2.0',
     description='Provide deadly simple Article model for Django',
     long_description=long_description,
@@ -35,7 +35,8 @@ setup(
     ],
     keywords='article model simple django entry blog',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    install_requires=['django-tinymce', 'Pillow', 'django-taggit'],
+    install_requires=['django-tinymce', 'Pillow', 'django-taggit',
+                      'django-nose'],
     extras_require={
         'dev': ['check-manifest'],
         'test': ['coverage'],
