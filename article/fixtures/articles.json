@@ -1,0 +1,41 @@
+[
+{
+    "fields": {
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id magna bibendum, imperdiet metus et, feugiat lorem. Pellentesque vel massa pellentesque, mollis erat id, interdum nunc. Maecenas pulvinar varius placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam consequat tortor vel leo euismod rhoncus. Nunc vitae convallis tellus. Proin ut nibh nec ipsum rhoncus fringilla. Suspendisse ut eros tortor. Praesent gravida ipsum nec nisl blandit, ut congue massa hendrerit. Fusce ornare lorem nec dapibus dapibus. Suspendisse sit amet posuere enim. Ut egestas iaculis sodales. In risus nibh, pulvinar volutpat ornare in, eleifend nec eros. Proin pharetra tellus dictum lacus mollis, vel rhoncus leo varius.",
+        "title": "The first article",
+        "image": "",
+        "modified": "2015-06-22T09:52:04Z",
+        "summary": "",
+        "published": true,
+        "slug": "the-first-article"
+    },
+    "model": "article.article",
+    "pk": 1
+},
+{
+    "fields": {
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id magna bibendum, imperdiet metus et, feugiat lorem. Pellentesque vel massa pellentesque, mollis erat id, interdum nunc. Maecenas pulvinar varius placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam consequat tortor vel leo euismod rhoncus. Nunc vitae convallis tellus. Proin ut nibh nec ipsum rhoncus fringilla. Suspendisse ut eros tortor. Praesent gravida ipsum nec nisl blandit, ut congue massa hendrerit. Fusce ornare lorem nec dapibus dapibus. Suspendisse sit amet posuere enim. Ut egestas iaculis sodales. In risus nibh, pulvinar volutpat ornare in, eleifend nec eros. Proin pharetra tellus dictum lacus mollis, vel rhoncus leo varius.",
+        "title": "The second article",
+        "image": "",
+        "modified": "2015-06-22T15:44:16.045Z",
+        "summary": "",
+        "published": false,
+        "slug": "the-second-article"
+    },
+    "model": "article.article",
+    "pk": 2
+},
+{
+    "fields": {
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id magna bibendum, imperdiet metus et, feugiat lorem. Pellentesque vel massa pellentesque, mollis erat id, interdum nunc. Maecenas pulvinar varius placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam consequat tortor vel leo euismod rhoncus. Nunc vitae convallis tellus. Proin ut nibh nec ipsum rhoncus fringilla. Suspendisse ut eros tortor. Praesent gravida ipsum nec nisl blandit, ut congue massa hendrerit. Fusce ornare lorem nec dapibus dapibus. Suspendisse sit amet posuere enim. Ut egestas iaculis sodales. In risus nibh, pulvinar volutpat ornare in, eleifend nec eros. Proin pharetra tellus dictum lacus mollis, vel rhoncus leo varius.",
+        "title": "The third article",
+        "image": "",
+        "modified": "2015-06-22T15:44:16.065Z",
+        "summary": "Suspendisse nec pretium sapien, tempus tempus felis. Sed sit amet purus pharetra, posuere nisi a, consequat tortor. Vivamus consectetur",
+        "published": true,
+        "slug": "the-third-article"
+    },
+    "model": "article.article",
+    "pk": 3
+}
+]
