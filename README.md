@@ -1,5 +1,9 @@
 Simple Article for Django
 =========================
+[![Build Status](https://travis-ci.org/zniper/simple-article.svg?branch=master)](https://travis-ci.org/zniper/simple-article)
+[![Coverage Status](https://coveralls.io/repos/zniper/simple-article/badge.svg?branch=master)](https://coveralls.io/r/zniper/simple-article?branch=master)
+[![Downloads](https://pypip.in/download/simple-article/badge.svg)](https://pypi.python.org/pypi/simple-article/)
+[![Latest Version](https://pypip.in/version/simple-article/badge.svg)](https://pypi.python.org/pypi/simple-article/)
 
 **simple-article** is a Django application which provides a simple Article model. That model could be a good start for simple blog or news, without the needs for installation much of other 3rd party packages.
 
