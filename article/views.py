@@ -13,3 +13,7 @@ class ArticleListView(ListView):
     model = Article
     template_name = 'article/list.html'
     paginate_by = getattr(settings, 'ARTICLE_PAGINATE_BY')
+
+    def get_queryset(self):
+        queryset = super(ArticleListView, self).get_queryset()
+        return queryset.filter(published=True)
