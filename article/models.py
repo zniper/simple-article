@@ -6,6 +6,7 @@ from django.core.urlresolvers import reverse
 from django.template.defaultfilters import slugify
 
 from tinymce.models import HTMLField
+from taggit.managers import TaggableManager
 
 
 class Article(models.Model):
@@ -18,6 +19,7 @@ class Article(models.Model):
     modified = models.DateTimeField(_('Modified'), default=datetime.now)
     published = models.BooleanField(default=False)
     body = HTMLField(_('Body'))
+    tags = TaggableManager()
 
     class Meta:
         ordering = ['-modified']

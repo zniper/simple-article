@@ -36,7 +36,7 @@ setup(
     ],
     keywords='article model simple django entry blog',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    install_requires=['django-tinymce', 'Pillow'],
+    install_requires=['django-tinymce', 'Pillow', 'taggit'],
     extras_require={
         'dev': ['check-manifest'],
         'test': ['coverage'],
