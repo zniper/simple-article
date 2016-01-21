@@ -9,7 +9,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='simple-article',
-    version='0.2.0',
+    version='0.2.1',
     description='Provide deadly simple Article model for Django',
     long_description=long_description,
     url='https://github.com/zniper/simple-article',
@@ -35,6 +35,7 @@ setup(
     ],
     keywords='article model simple django entry blog',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
+    include_package_data=True,
     install_requires=['django-tinymce', 'Pillow', 'django-taggit',
                       'django-nose'],
     extras_require={

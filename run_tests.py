@@ -18,6 +18,7 @@ settings.configure(
     },
     ROOT_URLCONF="article.urls",
     INSTALLED_APPS=[
+        "django.contrib.auth",
         "django.contrib.contenttypes",
         "django.contrib.sites",
         "article",

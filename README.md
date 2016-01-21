@@ -25,6 +25,8 @@ Inside settings module, put `article` into `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
+        'tinymce',
+        'taggit',
         'article',
     )
 
@@ -36,7 +38,13 @@ Include article URLs inside application urls.py file:
         ...
     )
 
-Then, update the database:
+Then, update the database.
+
+With Django 1.9 or newer:
+
+    python manage.py migrate article
+
+With Django 1.8.x or older:
 
     python manage.py syncdb
 
